@@ -1,0 +1,276 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*1*/
+.separador1{
+    width: 100%;
+    height: 100vh;
+    border-bottom: solid 1px black;
+}
+.titulo1{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.fmr1{
+    width: 40%;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+.colors{
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+}
+.label-1{
+    margin-top: 16px;
+    font-weight: 700;
+}
+.input-1{
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    outline:none;
+}
+#value-color{
+    margin-top:30px;
+    width: 50%;
+}
+/*2*/
+.ejercicio2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px black;
+}
+.titulo2{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.fmr2{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label-2{
+    font-weight: 700;
+}
+#description{
+    margin-top: 4%;
+    font-size: 1rem;
+    outline:none;
+}
+#btnTextArea{
+    background-color:black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    width: 110px;
+    height: 35px;
+}
+textarea:valid {border-color: green;}
+textarea:invalid {border-color:red;}
+@keyframes shake{
+    0%, 100% {transform: translateX(0);}
+    25% {transform: translateX(8px);}
+    75% {transform: translateX(-8px);}
+}
+textarea:invalid{animation: shake 0.1635s 0s 3;}
+
+
+/*3*/
+.ejercicio3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px black;
+}
+.titulo3{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.fmr3{
+    display: flex;
+    flex-direction: column;
+}
+.label-3{
+  
+    margin-top: 3%;
+}
+.input-3{
+    border: solid 2px black;
+    border-radius: 5px;
+    margin-top: 2%;
+    width: 200px;
+    height: 27px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.result3{
+    height: 25px;
+    margin: 2%;
+    font-size: 0.95rem;
+    text-align: center;
+}
+.btn3{
+    background-color:black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    width: 100px;
+    height: 32px;
+}
+/*4*/
+
+.ejercicio4{
+    width: 100%;
+    height: 100vh;
+    border-bottom: solid 1px black;
+}
+.titulo4{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.fmr4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ejercicio4-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt4{
+    font-weight: 600;
+}
+#text4-1{
+    margin-top: 1%;
+}
+#result4{
+    color: rgb(255, 104, 80);
+    margin-top: 1%;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.txt4-1{
+    margin-top: 1%;
+}
+.ejercicio4-2{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text4-2{
+    margin-top: 1%;
+}
+.txt4-2{
+    margin-top: 2%;
+}
+/*5*/
+.ejercicio5{
+    width: 100%;
+    height: 100vh;
+    border-bottom: solid 1px black;
+}
+.titulo5{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenesSecundarias{
+    margin-top: 10px;
+    display: flex;
+    gap: 13px;
+}
+.img-big{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+/*6*/
+
+.ejercicio6{
+    width: 100%;
+    height: 100vh;
+    border-bottom: solid 1px black;
+}
+.titulo6{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.btns{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#crear, #duplicar{
+    background-color:black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    height: 32px;
+}
+
+#eliminar{
+    background-color:red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    height: 32px;
+}
+/*7/*-------------------*/
+.ejercicio7{
+    margin: 10px;
+    font-size: 40px;
+    text-align: center
+
+}
+.footer{
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(rgb(95, 103, 251),red);
+  -webkit-background-clip: text;
+  color: transparent;  
+}

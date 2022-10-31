@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="COEX Talent JM">
+    <meta name="description" content="COEX Web Design">
+    <meta name="keywords" content="Learn logic, html, css, javascript, BD, vue.js, laravel">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="./images/FhDMrdUq_400x400.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ejercicios</title>
+</head>
+<body>
+    <main>
+        <section class="separador1">
+            <h4 class="titulo1">ejercicio 1</h4>
+            <hr>
+            <form action="" class="fmr1">
+                <select class="colors" id="colors">
+                    <option disabled="" selected="" hidden="">elije...</option>
+                    <option value="776CF5">purple</option>
+                    <option value="1C8394">aqua</option>
+                    <option value="BF2604">orange</option>
+                    <option value="A6033F">violett</option>
+                    <option value="77F55B">green grass</option>
+                </select>
+                <label class="label-1" for="number">Number index selected</label>
+                <input class="input-1" id="number" type="number">
+                <label class="label-1" for="text1">Text selected:</label>
+                <input class="input-1" id="text1" type="text">
+                <label class="label-1" for="text2">Color value selected</label>
+                <input class="input-1" id="text2" type="text">
+                <input id="value-color" type="color">
+            </form>
+        </section>
+        <!--           division de ejercicio        -->
+        <section class="ejercicio2">
+            <h4 class="titulo2">ejercicio 2</h4>
+            <form action="" class="fmr2">
+                <label class="label-2" for="descripcion">Descripcion</label>
+                <textarea name="" id="descripcion" cols="50" rows="5" required=""></textarea>
+                <input id="btnTextArea" type="button" value="Validate">
+            </form>
+        </section>
+        <!--           division de ejercicio        -->
+        <section class="ejercicio3">
+            <div class="container">
+            <h4 class="titulo3">ejercicio 3</h4>
+            <form action="" class="fmr3">
+                <label class="label-3" for="text3-1">expresion regular: letra+vocal</label>
+                <input class="input-3" id="text3-1" type="text" placeholder="ingrese texto">
+                <p class="result3" id="result3-1"></p>
+                <input class="btn3" id="validar3-1" type="button" value="Validar">
+                <label class="label-3" for="text3-2">Expresión regular:Letra+número+longitud </label>
+                <input class="input-3" id="text3-2" type="text" placeholder="ingrese caracteres">
+                <p class="result3" id="result3-2"></p>
+                <input class="btn3" id="validar3-2" type="button" value="Validar">
+                <label class="label-3" for="text3-3"> Expresión regular: Números</label>
+                <input class="input-3" id="text3-3" type="number" placeholder="ingrese número">
+                <p class="result3" id="result3-3"></p>
+                <input class="btn3" id="validar3-3" type="button" value="Validar">
+            </form>
+        </div>
+        </section>
+<!--           division de ejercicio        -->
+        <section class="ejercicio4">
+            <h4 class="titulo4">ejercicio 4</h4>
+            <form action="" class="fmr4">
+                <div class="ejercicio4-1">
+                    <label class="txt4" for="text4-1">Ingrese un texto</label>
+                    <input type="text" id="text4-1">
+                    <div id="result4"></div>
+                    <p class="txt4-1">muestra una alerta en pantalla cada vez que ingreso un caracter en la caja de texto</p>
+                </div>
+                <div class="ejercicio4-2">
+                    <label class="txt4" for="text4-2">Ingrese un texto (max 50 caracteres)</label>
+                    <input type="text" id="text4-2" maxlength="50">
+                    <p class="txt4-2">Cantidad de caracteres disponibles <span id="cantidad" style="color:red;">50</span></p>
+                </div>
+            </form>
+        </section>
+<!--           division de ejercicio        -->
+        <section class="ejercicio5">
+            <h4 class="titulo5">ejercicio 5</h4>
+            <div class="container">
+                <div class="imagenesss">
+                    <img class="img-big" id="big" src="img/3.jpg" alt="">
+                </div>
+                <div class="imagenesSecundarias">
+                    <img src="img/2.jpg" alt="" class="img" id="first">
+                    <img src=img/3.jpg" alt="" class="img" id="second">
+                    <img src="img/4.jpg" alt="" class="img" id="third">
+                    <img src="img/5.jpg" alt="" class="img" id="fourth">
+                </div>
+            </div>
+        </section>
+<!--           division de ejercicio        -->
+        <section class="ejercicio6">
+            <h4 class="titulo6">ejercicio 6</h4>
+            <div class="btns">
+                <button id="crear">Crear</button>
+                <button id="duplicar">Duplicar</button>
+                <button id="eliminar">Eliminar</button>
+            </div>
+            <div id="copia"></div>
+        </section>
+        <!--           division de ejercicio        -->
+        <section class="ejercicio7">
+            <h4 class="titulo7">ejercicio 7</h4>
+            <div class="container">
+                <div id="principal" class="card card-body col-sm-12">
+                    <h4 class="title fs-2">insertar Elementos</h4>
+                    <form class="form col-auto mb-3" id="frmLista">
+                        <input type="text" id="txtElemento" class="form-control" placeholder="Escribir elemento">
+                        <input type="submit" value="Agregar" class="btn btn-light btn-outline-primary">
+                    </form>
+                    <h4 class="title fs-2">Elementos</h4>
+                    <ul id="elementos" class="list-group">
+                        <li class="list-group-item">Elemento 1
+                            <button class="btn btn-light btn-outline-danger btn-sm float-end delete">X</button>
+                        </li>
+                        <li class="list-group-item">Elemento 2
+                            <button class="btn btn-light btn-outline-danger btn-sm float-end delete">X</button>
+                        </li>
+                        <li class="list-group-item">Elemento 3
+                            <button class="btn btn-light btn-outline-danger btn-sm float-end delete">X</button>
+                        </li>
+                        <li class="list-group-item">Elemento 4
+      <button class="btn btn-light btn-outline-danger btn-sm float-end delete">X</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">Ferney Rojas</p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
